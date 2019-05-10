@@ -67,4 +67,4 @@ else
     start_agent;
 fi
 
-export PS1="\[\e[36m\]\u@\h\[\e[m\] \[\e[32m\]\w\[\e[m\]\nλ: "
+export PS1="\[\e[36m\]\u@\h\[\e[m\] \[\e[32m\]\w\[\e[m\]\n> "
