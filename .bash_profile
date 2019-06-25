@@ -46,6 +46,9 @@ alias myip='curl ipecho.net/plain; echo'
 alias gmailKey='/usr/bin/ssh-add $HOME/.ssh/id_rsa_gmail'
 alias adistaKey='/usr/bin/ssh-add $HOME/.ssh/id_rsa_adista'
 
+mkdir -p $HOME/.ssh
+touch -a $HOME/.ssh/environment
+
 SSH_ENV=$HOME/.ssh/environment
 
 # start the ssh-agent
